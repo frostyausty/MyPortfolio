@@ -1,6 +1,37 @@
-body {
-    background-image: url(./pictures/background.jpg);
-    background-size: cover;
-    background-position: center;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+header {
+    background-color: whitesmoke;
+    padding: 13px;
+}
+
+header h1 {
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header div ul {
+    list-style-type: none;
+    float: right;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header div ul li {
+   padding: 10px 20px 10px 20px;
+   display: inline-block;
+}
+
+.hero img { 
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    
+    }
+
