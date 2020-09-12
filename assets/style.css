@@ -32,6 +32,8 @@ header div ul li {
     height: 400px;
     width: 100%;
     background-position: center;
-    
-    }
+}
 
+.about-me, .projects-grid, .contact-info{
+    display: inline-block;
+}
