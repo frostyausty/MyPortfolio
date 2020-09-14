@@ -4,15 +4,20 @@
     box-sizing: border-box;
 }
 
+/*body styling*/
+body {
+    background-color: #5085a5;
+}
 /*header styling*/
 header {
-    background-color: whitesmoke;
+    background-color: #687864;
     padding: 13px;
 }
 
 header h1 {
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
 }
 
 header ul {
@@ -21,11 +26,13 @@ header ul {
 }
 
 header div{
-    background-color:whitesmoke;
+    background-color:#687864;
 }
 
 header a {
     text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header div ul li {
@@ -33,27 +40,45 @@ header div ul li {
    display: inline-block;
 }
 
-.hero img { 
-    height: 400px;
-    width: 100%;
-    background-position: center;
-}
 
 /*section styling*/
 section {
     display: inline-block;
     padding: 15px;
 }
-.section-title{
+.section-title {
     font-family: Tahoma, Geneva, sans-serif;
 }
 
+.section-style{
+    background-color: #8fc1e3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    padding: 15px;
+}
 .about-me {
-    width: 70%;
-    
+    display: inline-block;
+    width: 75%;
 }
 
+
+
+.about-me img {
+    height: 25%;
+    width: 25%;
+    display: inline-block;
+}
+
+.about-me h3{
+    padding-bottom: 10px;
+}
+
+
 .contact-info{
+   
     display: center;
-    padding: 15px;
+    
+   
+    
+   
 }
