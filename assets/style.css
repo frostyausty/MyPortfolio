@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*header styling*/
 header {
     background-color: whitesmoke;
     padding: 13px;
@@ -14,9 +15,13 @@ header h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header div ul {
+header ul {
     list-style-type: none;
     float: right;
+}
+
+header div{
+    background-color:whitesmoke;
 }
 
 header a {
@@ -34,6 +39,21 @@ header div ul li {
     background-position: center;
 }
 
-.about-me, .projects-grid, .contact-info{
+/*section styling*/
+section {
     display: inline-block;
+    padding: 15px;
+}
+.section-title{
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.about-me {
+    width: 70%;
+    
+}
+
+.contact-info{
+    display: center;
+    padding: 15px;
 }
