@@ -66,21 +66,52 @@ section h3{
     width: 75%;
 }
 
-
-
 .about-me img {
     height: 25%;
     width: 25%;
     display: inline-block;
 }
 
+/*project section styling*/
+.project-grid{
+    display: inline-block;
+}
+
+.project-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.project-grid-container {
+    background: #687864;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    border: 4px solid #8fc1e3;
+    color:whitesmoke;
+    
+}
+
+.project-grid-item {
+    height: 150px;
+    width: 175px;
+    padding: 50px;
+}
+
+.project-grid-item img{
+    height: 100px;
+    width: 125px;
+}
+
+.first-project img{
+    height:200px;
+    width:300px;
+}
 
 
+/*contact section styling*/
 .contact-info{
-   
-    display: center;
-    
-   
-    
-   
+   display: center;   
 }
