@@ -1,5 +1,7 @@
 # MyPortfolio
-Challenge 2 asks us to use advanced CSS to create a portfolio that includes a picture of ourselves, an "about us" section, links to our projects, and our contact information. 
+I used advanced CSS to create a portfolio that includes a picture of ourselves, an "about us" section, links to our projects, and our contact information. This is my first portfolio, my current one is located at:
+
+https://frostyausty.github.io/Portfolio
 
 Screenshots of my portfolio as of 9/13/2020
 
